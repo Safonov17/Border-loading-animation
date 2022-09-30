@@ -1,4 +1,4 @@
-.container {
+.loading-container {
     position: relative;
     height: 450px;
     width: 350px;
@@ -14,7 +14,7 @@
         background-image: conic-gradient(transparent, transparent, transparent, #fff);
     }
 }
-.active {
+.loading-active {
     background-color: #000;
     &::before {
         animation: rotate 4s linear infinite;
@@ -28,7 +28,7 @@
         transform: rotate(360deg);
     }
 }
-.overlay {
+.loading-overlay {
     position: absolute;
     height: 440px;
     width: 340px;
